@@ -1,0 +1,25 @@
+﻿@page
+@model SusinLake.Pages.BoatLaunchModel
+@{
+    ViewData["Title"] = "Boat Launch";
+}
+
+
+<body>
+    <h3>The Susin Lake association has a boat launch!</h3><br>
+    All <u>lake-front property owners</u> have access to this ramp for Spring boat launching, Fall boat retrieval, and emergency boat maintenence.
+    <br><br>
+    <b>How to use</b>
+    <ul>
+        <li>The registered boat owner must be a lake-front property owner on Susin Lake.</li>
+        <li>Usage of the launch must be coordinated ahead of time with a member of the lake association.</li>
+        <li>Association member contact information is available <a asp-page="/Contact">here.</a></li>
+        <li>The boat launch waiver is avaiable to download <a href="https://drive.google.com/file/d/1OGQN5_RkhBg-mfYnTinDWH7kU933Vm-3/view?usp=sharing" download> here.</a></li>
+        <li>The area around the launch is rather small so it is advised to back your trailer down starting from where Delores meets Susin lane.</li>
+        <li>Do not trespass on the property or the neighboring properties.</li>
+    </ul>
+    <!-- Google Map -->
+    <center>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=42.76097871984724,%20-83.48085823343197&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+    </center>
+</body>
