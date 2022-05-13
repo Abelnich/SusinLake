@@ -12,6 +12,7 @@
 <ul>
   <li>HTML</li>
   <li>CSS</li>
+  <li>Javascript</li>
   <li>ASP.net Framework</li>
   <li>ASP.net Core</li>
   <li>Razor Pages</li>
